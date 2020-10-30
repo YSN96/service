@@ -1,0 +1,23 @@
+baseURL : "http://192.168.65.4/"
+languageCode : "cs-es"
+title : "Restaurante"
+theme: "basic-hugo"
+menu:
+    main:
+    - name: Ayuda
+      url: /about
+      weight: -110
+    - name: Ubicacion
+      url: /ubicacio
+      weight: -110
+    - name: Carta
+      url: /carta/
+      weight: -100
+    
+markup:
+    goldmark:
+       renderer:
+         unsafe: true
+             
+
+
